@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Document</title>
+  <title>Ninja-to-Cat</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("img").click(function() {
+        var temp = $(this).attr("src");
+        $(this).attr("src", $(this).attr("data-alt-src"));
+        $(this).attr("data-alt-src", temp);
+      })
+    })
+  </script>
 </head>
 <body>
   <div>

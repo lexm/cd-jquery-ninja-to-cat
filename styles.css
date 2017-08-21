@@ -1,16 +1,15 @@
 *{
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
 }
 body{
   width: 950px;
   margin: 10px;
 }
 div{
-  width: 300px;
+  width: 200px;
   margin: auto;
 }
 img{
-  margin: auto;
+  margin: 0px 10px;
 }
